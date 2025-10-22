@@ -8,5 +8,5 @@ model_list:
         api_key: <AZURE OPENAI API KEY>
 
 litellm_settings:
-  callbacks: custom_logger.test_instance
+  callbacks: custom_logger.TokenLogger
 
