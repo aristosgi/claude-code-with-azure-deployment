@@ -28,7 +28,7 @@ azure_app_insights_connection_string=your-instrumentation-key-here
 
 ### config.yaml`
 
-In this yaml you have to set the actual azur
+In this yaml you have to set the actual azure credentials
 
 ```yaml
 # Model configuration
