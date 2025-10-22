@@ -100,8 +100,6 @@ litellm --config config.yaml --host 127.0.0.1 --port 4000
 ```
 ✅ SUCCESS: Azure Monitor configured successfully
 📊 Application Insights telemetry is now active
-INFO: Started server process [12345]
-INFO: Waiting for application startup.
 INFO: Application startup complete.
 INFO: Uvicorn running on http://127.0.0.1:4000 (Press CTRL+C to quit)
 ```
