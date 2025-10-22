@@ -1,0 +1,12 @@
+# Model configuration
+model_list:
+    - model_name: deepseek
+      litellm_params:
+        model: azure/DeepSeek-V3.1
+        api_base: <AZURE OPENAI ENDPOINT>
+        api_version: 2024-05-01-preview
+        api_key: <AZURE OPENAI API KEY>
+
+litellm_settings:
+  callbacks: custom_logger.test_instance
+

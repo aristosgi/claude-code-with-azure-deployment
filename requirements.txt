@@ -1,0 +1,4 @@
+litellm[proxy]
+python-dotenv
+backoff
+azure-monitor-opentelemetry
