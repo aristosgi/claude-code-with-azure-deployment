@@ -45,7 +45,7 @@ class TokenLogger(CustomLogger):
     def __init__(self):
         self.model = None
 
-    def log_pre_api_call(self, model: str, _messages: list, _kwargs: Dict[str, Any]) -> None:
+    def log_pre_api_call(self, model: str, messages: list, kwargs: Dict[str, Any]) -> None:
         """Log before API call with structured data"""
         self.model = model
         log_dict = {
