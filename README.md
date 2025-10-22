@@ -7,14 +7,22 @@
 - Azure OpenAI Service access
 - Azure Application Insights (optional for telemetry)
 
-## 1. Install Dependencies
+## 1. Install Claude Code Extension for VS Code
+
+1. Open VS Code
+2. Go to the Extensions tab (or press `Ctrl+Shift+X` / `Cmd+Shift+X`)
+3. Search for "Claude Code"
+4. Click Install
+5. Reload VS Code if prompted
+
+## 2. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
 
-## 2. Environment Variables Setup
+## 3. Environment Variables Setup
 
 Create a `.env` file in the project root:
 
@@ -24,7 +32,7 @@ azure_app_insights_connection_string=your-instrumentation-key-here
 
 ```
 
-## 3. Configuration Files
+## 4. Configuration Files
 
 ### config.yaml`
 
@@ -76,18 +84,6 @@ To configure VS Code settings:
   ],
   "claude-code.selectedModel": "deepseek"
 }
-```
-
-
-## 4. Project Structure
-
-```
-claude-code-with-azure-deployment/
-├── config.yaml              # LiteLLM configuration
-├── custom_logger.py         # Azure telemetry logger
-├── .env                     # Environment variables (DO NOT COMMIT)
-├── .gitignore              # Git ignore file
-└── SETUP.md                # This guide
 ```
 
 ## 5. Running the Setup
