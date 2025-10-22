@@ -86,6 +86,8 @@ To configure VS Code settings:
 }
 ```
 
+**After This step RESTART the Visual Studio**
+
 ## 5. Running the Setup
 
 ### Start LiteLLM Proxy Server
